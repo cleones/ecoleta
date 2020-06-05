@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import Routes from './routes';
 
 const App = () => {
   return (
-    <div className='App'>
-      <h1>Cleones</h1>
-    </div>
+    <>
+      <Routes />
+    </>
   );
 };
 
