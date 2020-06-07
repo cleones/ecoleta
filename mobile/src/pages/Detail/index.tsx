@@ -23,6 +23,7 @@ interface Point {
   id: number;
   name: string;
   image: string;
+  image_url: string;
   latitude: string;
   longitude: string;
   email: string;
@@ -72,7 +73,7 @@ const Detail: React.FC = () => {
         <Image
           style={styles.pointImage}
           source={{
-            uri: point?.image,
+            uri: point?.image_url,
           }}
         />
         <Text style={styles.pointName}> {point.name}</Text>
