@@ -24,3 +24,17 @@ npm run dev | yarn dev                // start do projeto.
 npm run migration | yarn migration    // criar tabelas.
 npm run seed | yar seed               // inserir dados na tabela items.
 ```
+#### Web
+```
+cd web
+npm i | yarn                          // dependencias.
+npm run start | yarn start                // start do projeto.
+```
+
+#### Mobile
+Você precisa instalar o [Expo](https://expo.io/learn)
+```
+cd mobile
+npm i | yarn                          // dependencias.
+npm run start | yarn start                // start do projeto.
+```
